@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url(/img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main section {
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section h1 {
+    font-family: 'Roboot', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.kolom {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+ 
+.kolom i{
+    font-size: 25px;
+    color: #fff;
+}
+
+main section input {
+    border: none;
+    height: 20px;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px;
+    background: #fff;
+    font-size: 15px;
+}
+
+main section .btn {
+    border: none;
+    height: 40px;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px;
+    background: #fff;
+    color: #474747;
+    font-size: 18px;
+}
+
+main section input:hover {
+    box-shadow: 0 0 8px white;
+}
+
+main section button {
+    border: none;
+    padding: 10px 70px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 20px;
+    padding: 30px 0px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    transition: 0.2s ease-in-out;
+    gap: 10px;
+}
+
+.nav:hover {
+    transform: scale(1.1);
+}
+
+
+.nav i {
+    color: #000000;
+    font-size: 40px;
+}
+
+a {
+    text-align: center;
+    font-family: 'Roboot', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
